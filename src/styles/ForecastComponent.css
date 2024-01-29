@@ -1,0 +1,12 @@
+input:checked ~ .radio {
+  color: white;
+  background-color: green;
+}
+
+#celsius:checked ~ div {
+  --tw-translate-x: 0%;
+}
+
+#fahrenheit:checked ~ div {
+  --tw-translate-x: 100%;
+}
