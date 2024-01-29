@@ -38,7 +38,7 @@ export default function CurrentWeatherSection(props: CurrentWeatherProps) {
     }
 
     fetchUnsplash();
-  }, [])
+  })
 
   return (
     <>

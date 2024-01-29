@@ -44,7 +44,7 @@ export default function useGeolocation() {
     }
 
     navigator.geolocation.getCurrentPosition(onSuccess, onError);
-  }, []);
+  });
 
   return location;
 }
