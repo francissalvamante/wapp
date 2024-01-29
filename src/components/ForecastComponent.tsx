@@ -33,7 +33,7 @@ export default function ForecastComponent(props: ForecastComponentProps) {
         <SevenDayForecast forecastday={forecast?.forecastday} unit={unit} />
       </div>
       <div className="w-full h-14 mt-5">
-        <p className="mb-3 text-3xl">Today's Highlights</p>
+        <p className="mb-3 text-3xl">Today&apos;s Highlights</p>
         <div className="flex flex-wrap gap-3">
           <HighlightsCard title="UV Index">
             <GaugeComponent
